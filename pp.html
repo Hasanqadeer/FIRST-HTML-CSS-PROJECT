@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>image</title>
+<style>
+	*{
+		margin: 0%;
+		padding: 0%;
+		box-sizing: border-box;
+	}
+	body{
+		background-color:black;
+	}
+	.image{
+		background-color: black;	
+         border-radius: 15px;
+         max-width: 500px;
+         min-width: 100;
+         height: auto;
+         margin:7% 38%;
+         box-shadow: 3px 3px 10px white;
+          animation-name: a;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+
+
+	}
+	.image img {
+		width: 100%;
+		border-radius: 10px;
+		height: auto;
+
+	}
+.image h3{
+       color: white;
+       font-family: cursive;
+       font-size: 1em;
+       padding: 10px;
+       text-align: center;
+      
+}
+@keyframes a{
+	0%{
+     max-width: 500px;
+     min-width: 100px;
+	}
+	100%{
+		max-width: 1000px;
+		min-width: 100px;
+	}
+}
+}
+</style>
+</head>
+<body>
+<div class="image">
+	<img src="hasan.jpg">
+	<h3>HASAN QADEER</h3>
+	<h3 class="a">I'M FRONT-END DEVELOPER<h3>
+</div>
+</body>
+</html>
